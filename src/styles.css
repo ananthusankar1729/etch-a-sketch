@@ -10,7 +10,7 @@ div.container{
 .box{
     display: flex;
     flex-direction: column;
-    background-color: rgb(211, 208, 208);
+    background-color: rgb(248, 240, 240);
     flex: 1 1 auto;
     height: 80vh;
     width: 80vw;
