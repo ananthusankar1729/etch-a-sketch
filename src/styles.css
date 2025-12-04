@@ -1,12 +1,33 @@
-.container{
+div.container{
     display: flex;
+    justify-self: center;
+    flex-direction: row;
+    height: 80vh;
+    width: 80vh;
+    border: 10px solid black;
+    margin-top: 10px;
 }
-.container div{
-    background-color: black;
-    border: 5px solid blue;
-    height: 100px ;
-    width: 150px;
-    background: peachpuff;
-
-
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(211, 208, 208);
+    flex: 1 1 auto;
+    height: 80vh;
+    width: 80vw;
 }
+.grid{
+    border: 2px solid white;
+    flex: 1 1 auto;
+    height: auto;
+    width: auto;
+}
+div{
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+button{
+    margin-left: 30px;
+    padding: 5px;
+}
+
