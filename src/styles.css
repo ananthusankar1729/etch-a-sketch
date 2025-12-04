@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+}
+.container div{
+    background-color: black;
+    border: 5px solid blue;
+    height: 100px ;
+    width: 150px;
+    background: peachpuff;
+
+
+}
