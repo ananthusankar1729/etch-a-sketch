@@ -25,3 +25,9 @@ btn.addEventListener("click", () => { x = parseInt(prompt("enter the grid size (
     makeGrid(x);
 });
 
+
+grid.addEventListener("hover", ()=>{
+    grid.classList.add("color");
+    let color = document.getElementsByClassName("color");
+    changeColor()
+})
