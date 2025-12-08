@@ -24,9 +24,11 @@ function makeGrid(x){
         alert("Enter a size between (1 - 100)");
     }
 }
+
 const btn = document.querySelector("button");
 btn.addEventListener("click", () => { x = parseInt(prompt("enter the grid size (1 - 100):", x));
     container.innerHTML = "";
+
     makeGrid(x);
 });
 
