@@ -12,8 +12,13 @@ function makeGrid(x){
                 let grid = document.createElement("div");
                 grid.classList.add("grid");
                 box.appendChild(grid);
+                grid.addEventListener("mouseover", function() {
+                    grid.classList.add("colorgrid");
+                });
             }
-        }   
+        }
+        
+           
         
     } else {
         alert("Enter a size between (1 - 100)");
@@ -26,8 +31,3 @@ btn.addEventListener("click", () => { x = parseInt(prompt("enter the grid size (
 });
 
 
-grid.addEventListener("hover", ()=>{
-    grid.classList.add("color");
-    let color = document.getElementsByClassName("color");
-    changeColor()
-})
